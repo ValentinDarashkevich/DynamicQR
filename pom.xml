@@ -5,7 +5,7 @@
   <artifactId>DynamicQR</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>DynamicQR Maven Webapp</name>
+  <name>DynamicQR WebApp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -14,12 +14,21 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
     <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>javax.servlet-api</artifactId>
         <version>3.0.1</version>
         <scope>compile</scope>
     </dependency>
+    
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>4.3.12.RELEASE</version>
+    </dependency>
+
+    
   </dependencies>
   <build>
     <finalName>DynamicQR</finalName>
